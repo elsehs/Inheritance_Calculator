@@ -1,0 +1,924 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>zain mob-long500, 24pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1299, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 11</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>ميراثك</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_Title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>zain mob-long500, 18pt, style=Bold</value>
+  </data>
+  <data name="label_Title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 14</value>
+  </data>
+  <data name="label_Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>510, 38</value>
+  </data>
+  <data name="label_Title.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_Title.Text" xml:space="preserve">
+    <value>بيانات الميراث</value>
+  </data>
+  <data name="label_Title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label_Title.Name" xml:space="preserve">
+    <value>label_Title</value>
+  </data>
+  <data name="&gt;&gt;label_Title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Title.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;label_Title.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_TotalHint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>zain mob-long500, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="label_TotalHint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_TotalHint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10, 52</value>
+  </data>
+  <data name="label_TotalHint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>510, 20</value>
+  </data>
+  <data name="label_TotalHint.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label_TotalHint.Text" xml:space="preserve">
+    <value>إدخال مبلغ التركة</value>
+  </data>
+  <data name="label_TotalHint.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label_TotalHint.Name" xml:space="preserve">
+    <value>label_TotalHint</value>
+  </data>
+  <data name="&gt;&gt;label_TotalHint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_TotalHint.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;label_TotalHint.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBox_Total.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.5pt</value>
+  </data>
+  <data name="textBox_Total.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 83</value>
+  </data>
+  <data name="textBox_Total.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 26</value>
+  </data>
+  <data name="textBox_Total.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="textBox_Total.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox_Total.Name" xml:space="preserve">
+    <value>textBox_Total</value>
+  </data>
+  <data name="&gt;&gt;textBox_Total.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_Total.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;textBox_Total.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel_Div1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 122</value>
+  </data>
+  <data name="panel_Div1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 1</value>
+  </data>
+  <data name="panel_Div1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel_Div1.Name" xml:space="preserve">
+    <value>panel_Div1</value>
+  </data>
+  <data name="&gt;&gt;panel_Div1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_Div1.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;panel_Div1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_Sons.Font" type="System.Drawing.Font, System.Drawing">
+    <value>zain mob-long500, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="label_Sons.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_Sons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 134</value>
+  </data>
+  <data name="label_Sons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 20</value>
+  </data>
+  <data name="label_Sons.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label_Sons.Text" xml:space="preserve">
+    <value>عدد الأبناء</value>
+  </data>
+  <data name="label_Sons.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label_Sons.Name" xml:space="preserve">
+    <value>label_Sons</value>
+  </data>
+  <data name="&gt;&gt;label_Sons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Sons.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;label_Sons.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="num_Sons.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.5pt</value>
+  </data>
+  <data name="num_Sons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 157</value>
+  </data>
+  <data name="num_Sons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 26</value>
+  </data>
+  <data name="num_Sons.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;num_Sons.Name" xml:space="preserve">
+    <value>num_Sons</value>
+  </data>
+  <data name="&gt;&gt;num_Sons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;num_Sons.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;num_Sons.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label_Daughters.Font" type="System.Drawing.Font, System.Drawing">
+    <value>zain mob-long500, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="label_Daughters.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_Daughters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 134</value>
+  </data>
+  <data name="label_Daughters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 20</value>
+  </data>
+  <data name="label_Daughters.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label_Daughters.Text" xml:space="preserve">
+    <value>عدد البنات</value>
+  </data>
+  <data name="label_Daughters.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label_Daughters.Name" xml:space="preserve">
+    <value>label_Daughters</value>
+  </data>
+  <data name="&gt;&gt;label_Daughters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Daughters.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;label_Daughters.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="num_Daughters.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.5pt</value>
+  </data>
+  <data name="num_Daughters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 157</value>
+  </data>
+  <data name="num_Daughters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 26</value>
+  </data>
+  <data name="num_Daughters.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;num_Daughters.Name" xml:space="preserve">
+    <value>num_Daughters</value>
+  </data>
+  <data name="&gt;&gt;num_Daughters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;num_Daughters.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;num_Daughters.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="panel_Div2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 196</value>
+  </data>
+  <data name="panel_Div2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 1</value>
+  </data>
+  <data name="panel_Div2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;panel_Div2.Name" xml:space="preserve">
+    <value>panel_Div2</value>
+  </data>
+  <data name="&gt;&gt;panel_Div2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_Div2.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;panel_Div2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label_Gender.Font" type="System.Drawing.Font, System.Drawing">
+    <value>zain mob-long500, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="label_Gender.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_Gender.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 206</value>
+  </data>
+  <data name="label_Gender.Size" type="System.Drawing.Size, System.Drawing">
+    <value>510, 20</value>
+  </data>
+  <data name="label_Gender.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label_Gender.Text" xml:space="preserve">
+    <value>جنس المتوفى</value>
+  </data>
+  <data name="label_Gender.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label_Gender.Name" xml:space="preserve">
+    <value>label_Gender</value>
+  </data>
+  <data name="&gt;&gt;label_Gender.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Gender.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;label_Gender.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="rb_Male.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="rb_Male.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="rb_Male.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.999999pt, style=Bold</value>
+  </data>
+  <data name="rb_Male.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rb_Male.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 232</value>
+  </data>
+  <data name="rb_Male.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 36</value>
+  </data>
+  <data name="rb_Male.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rb_Male.Text" xml:space="preserve">
+    <value>ذكر</value>
+  </data>
+  <data name="rb_Male.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;rb_Male.Name" xml:space="preserve">
+    <value>rb_Male</value>
+  </data>
+  <data name="&gt;&gt;rb_Male.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_Male.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;rb_Male.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="rb_Female.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="rb_Female.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="rb_Female.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.999999pt, style=Bold</value>
+  </data>
+  <data name="rb_Female.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rb_Female.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 232</value>
+  </data>
+  <data name="rb_Female.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 36</value>
+  </data>
+  <data name="rb_Female.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="rb_Female.Text" xml:space="preserve">
+    <value>أنثى</value>
+  </data>
+  <data name="rb_Female.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;rb_Female.Name" xml:space="preserve">
+    <value>rb_Female</value>
+  </data>
+  <data name="&gt;&gt;rb_Female.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_Female.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;rb_Female.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="panel_Div3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 280</value>
+  </data>
+  <data name="panel_Div3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 1</value>
+  </data>
+  <data name="panel_Div3.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;panel_Div3.Name" xml:space="preserve">
+    <value>panel_Div3</value>
+  </data>
+  <data name="&gt;&gt;panel_Div3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_Div3.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;panel_Div3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Chk_PartnerAlive.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Chk_PartnerAlive.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.999999pt, style=Bold</value>
+  </data>
+  <data name="Chk_PartnerAlive.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Chk_PartnerAlive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 292</value>
+  </data>
+  <data name="Chk_PartnerAlive.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Chk_PartnerAlive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 24</value>
+  </data>
+  <data name="Chk_PartnerAlive.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Chk_PartnerAlive.Text" xml:space="preserve">
+    <value>الزوجة على قيد الحياة</value>
+  </data>
+  <data name="Chk_PartnerAlive.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Chk_PartnerAlive.Name" xml:space="preserve">
+    <value>Chk_PartnerAlive</value>
+  </data>
+  <data name="&gt;&gt;Chk_PartnerAlive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Chk_PartnerAlive.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;Chk_PartnerAlive.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="chk_Mother.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chk_Mother.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.999999pt, style=Bold</value>
+  </data>
+  <data name="chk_Mother.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_Mother.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 326</value>
+  </data>
+  <data name="chk_Mother.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chk_Mother.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 24</value>
+  </data>
+  <data name="chk_Mother.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="chk_Mother.Text" xml:space="preserve">
+    <value>الأم متواجدة</value>
+  </data>
+  <data name="chk_Mother.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;chk_Mother.Name" xml:space="preserve">
+    <value>chk_Mother</value>
+  </data>
+  <data name="&gt;&gt;chk_Mother.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_Mother.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;chk_Mother.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="chk_Father.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chk_Father.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.999999pt, style=Bold</value>
+  </data>
+  <data name="chk_Father.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_Father.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 326</value>
+  </data>
+  <data name="chk_Father.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chk_Father.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 24</value>
+  </data>
+  <data name="chk_Father.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="chk_Father.Text" xml:space="preserve">
+    <value>الأب متواجد</value>
+  </data>
+  <data name="chk_Father.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;chk_Father.Name" xml:space="preserve">
+    <value>chk_Father</value>
+  </data>
+  <data name="&gt;&gt;chk_Father.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_Father.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;chk_Father.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="panel_Div4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 362</value>
+  </data>
+  <data name="panel_Div4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 1</value>
+  </data>
+  <data name="panel_Div4.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;panel_Div4.Name" xml:space="preserve">
+    <value>panel_Div4</value>
+  </data>
+  <data name="&gt;&gt;panel_Div4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_Div4.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;panel_Div4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label_Brothers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>zain mob-long500, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="label_Brothers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_Brothers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 373</value>
+  </data>
+  <data name="label_Brothers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 20</value>
+  </data>
+  <data name="label_Brothers.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label_Brothers.Text" xml:space="preserve">
+    <value>عدد الإخوة الذكور</value>
+  </data>
+  <data name="label_Brothers.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label_Brothers.Name" xml:space="preserve">
+    <value>label_Brothers</value>
+  </data>
+  <data name="&gt;&gt;label_Brothers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Brothers.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;label_Brothers.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="num_FullBrothers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.5pt</value>
+  </data>
+  <data name="num_FullBrothers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 396</value>
+  </data>
+  <data name="num_FullBrothers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 26</value>
+  </data>
+  <data name="num_FullBrothers.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;num_FullBrothers.Name" xml:space="preserve">
+    <value>num_FullBrothers</value>
+  </data>
+  <data name="&gt;&gt;num_FullBrothers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;num_FullBrothers.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;num_FullBrothers.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="label_Sisters.Font" type="System.Drawing.Font, System.Drawing">
+    <value>zain mob-long500, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="label_Sisters.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_Sisters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 373</value>
+  </data>
+  <data name="label_Sisters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 20</value>
+  </data>
+  <data name="label_Sisters.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label_Sisters.Text" xml:space="preserve">
+    <value>عدد الإخوات الإناث</value>
+  </data>
+  <data name="label_Sisters.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label_Sisters.Name" xml:space="preserve">
+    <value>label_Sisters</value>
+  </data>
+  <data name="&gt;&gt;label_Sisters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_Sisters.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;label_Sisters.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="num_FullSisters.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.5pt</value>
+  </data>
+  <data name="num_FullSisters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 396</value>
+  </data>
+  <data name="num_FullSisters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 26</value>
+  </data>
+  <data name="num_FullSisters.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;num_FullSisters.Name" xml:space="preserve">
+    <value>num_FullSisters</value>
+  </data>
+  <data name="&gt;&gt;num_FullSisters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;num_FullSisters.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;num_FullSisters.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="panel_Div5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 436</value>
+  </data>
+  <data name="panel_Div5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 1</value>
+  </data>
+  <data name="panel_Div5.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;panel_Div5.Name" xml:space="preserve">
+    <value>panel_Div5</value>
+  </data>
+  <data name="&gt;&gt;panel_Div5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_Div5.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;panel_Div5.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>zain mob-long500, 16.199999pt, style=Bold</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 494</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 46</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>ابدأ الحساب</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="panel_Card.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 22</value>
+  </data>
+  <data name="panel_Card.Size" type="System.Drawing.Size, System.Drawing">
+    <value>537, 613</value>
+  </data>
+  <data name="panel_Card.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel_Card.Name" xml:space="preserve">
+    <value>panel_Card</value>
+  </data>
+  <data name="&gt;&gt;panel_Card.Type" xml:space="preserve">
+    <value>OOP_Project_Concept2.BorderPanel, OOP Project Concept2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panel_Card.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel_Card.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1457, 678</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="panel_Card" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Absolute,601,Absolute,521" /&gt;&lt;Rows Styles="Percent,50,Absolute,8,Absolute,659" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 19</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1457, 678</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.5pt</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ميراثك</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
