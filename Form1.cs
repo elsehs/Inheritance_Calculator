@@ -134,14 +134,14 @@ namespace OOP_Project_Concept2
                 {
                     if (h.FinalAmount > 0)
                     {
-                        var ratio = h.GetShareRatio(hasBranch, isDeceasedMale);
+                        var ratio = h.FinalAmount / totalMoney; // ده بياخد النسبة الحقيقية بعد العول أو الرد
                         rows.Add(new ResultRow(h.Relationship, FormatRatio(ratio), h.FinalAmount));
                     }
                 }
 
                 if (myDaughters != null)
                 {
-                    var ratio = myDaughters.GetShareRatio(hasBranch, isDeceasedMale);
+                    var ratio = myDaughters.FinalAmount / totalMoney;
                     rows.Add(new ResultRow($"البنات ({daughtersCount})", FormatRatio(ratio), myDaughters.FinalAmount));
                 }
 
@@ -165,6 +165,8 @@ namespace OOP_Project_Concept2
                     if (fullSistersCount > 0)
                         rows.Add(new ResultRow($"الأخوات ({fullSistersCount})", FormatRatio((sibShare * fullSistersCount) / totalMoney), sibShare * fullSistersCount));
                 }
+                double finalTotal = rows.Sum(r => r.Amount);
+                rows.Add(new ResultRow("إجمالي التركة الموزعة", "100%", finalTotal));
 
                 using var dialog = new ResultDialog(rows, Properties.Resources.arch_pattern);
                 dialog.ShowDialog(this);
@@ -352,7 +354,16 @@ namespace OOP_Project_Concept2
 
             foreach (var row in rows)
             {
-                grid.Rows.Add(row.HeirName, row.ShareText, row.Amount.ToString("N0", CultureInfo.CurrentCulture));
+                int rowIndex = grid.Rows.Add(row.HeirName, row.ShareText, row.Amount.ToString("N0", CultureInfo.CurrentCulture));
+
+                if (row.HeirName == "إجمالي التركة الموزعة")
+                {
+                    grid.Rows[rowIndex].DefaultCellStyle.Font = new Font("Segoe UI", 11, FontStyle.Bold);
+
+                    grid.Rows[rowIndex].DefaultCellStyle.ForeColor = Color.FromArgb(196, 160, 80);
+
+                    grid.Rows[rowIndex].DefaultCellStyle.BackColor = Color.FromArgb(20, 60, 110);
+                }
             }
 
             var newCalcButton = new Button
